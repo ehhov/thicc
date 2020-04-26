@@ -1,8 +1,11 @@
-ln_to_home='wallpapers fonts icons'
-D=`pwd`
+to_home='wallpapers fonts icons'
+this=$(pwd)
+this=${this#~/}
 
-for i in $ln_to_home
+for i in $to_home
 do 
-	[ -e $D/$i ] && { [ -e ~/.$i ] && rm ~/.$i; ln -s $D/$i ~/.$i; }
+	if [ -e $i ]; then 
+		[ -L ~/.$i ] && rm ~/.$i
+		ln -f -s ${this}/$i ~/.$i
+	fi
 done
-
