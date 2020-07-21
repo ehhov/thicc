@@ -5,6 +5,7 @@ configured with
  - Slashed digit 0
  - Raised asterisk
  - Centered tilde
+ - Normal space for no-break space
 
 # Iosevka
 If you will ever need to rebuild the 
@@ -27,8 +28,8 @@ Sddm lower priority but always enabled faces directory is
 `username.face.icon`. Another place for them is
 `/var/lib/AccountsService/`, I don't know why. 
 
-To define a faces directory manually, include the following to 
-a `/etc/sddm.conf.d/` file
+To define a faces directory manually, include the following to the 
+`/etc/sddm.conf.d/` file
 ```
 [Theme]
 FacesDir=/path

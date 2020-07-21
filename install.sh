@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 to_home='wallpapers fonts icons face.icon'
 dir=$(readlink -f $0)
 dir=$(dirname "$dir")
