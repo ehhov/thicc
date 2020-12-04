@@ -18,7 +18,8 @@ design = ["sp-fixed", "leading-1250",
 You will also need to install `npm`, `ttfautohint`, `otfcc`, and `afdko 
 (python)`.
 
-# Fonts You can find a lot of fonts in 
+# Fonts
+You can find a lot of fonts in 
 [github.com/potyt/fonts](https://github.com/potyt/fonts)
 
 # Profile picture
